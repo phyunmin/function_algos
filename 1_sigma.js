@@ -3,6 +3,17 @@
 
 function sigma(num){
     // YOUR CODE HERE
+    var sum=0;
+    for(var i=0; i<=num; i++){
+        sum+=i;
+    }
+    return sum;
 }
-var sum = sigma(5);
+var sum = sigma(-10);
 console.log(sum);
+
+// sigma Test Cases:
+// sigma(10)                                //Expected output: 55
+// sigma(1)                                 //Expected output: 1
+// sigma(0)                                 //Expected output: 0
+// sigma(-10)                               //Expected output: 0
